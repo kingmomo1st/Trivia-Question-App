@@ -1,0 +1,106 @@
+#question-box {
+    background-color: tan;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    min-height: 400px;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 2px solid black;
+}
+
+#get-trivia-btn {
+    width: 544px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: darkslategray;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#get-trivia-btn:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+#score-box {
+    position: relative;
+    color: darkslategrey; 
+    font-size: 1.25rem; 
+    font-weight: bold;
+}
+
+select {
+    width: 545px;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-weight: bold;
+    background-color: darkslategray;
+    color: #fff;
+}
+
+.answer-choice-btn {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 90%;
+    text-align-last: left;
+    /* display: none; */
+}
+
+.answer-choice-btn:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#question-h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 40px;
+}
+
+/* make classes for right and wrong button answers */
+.right-answer {
+    background-color: #272;
+    color: #fff;
+}
+
+.wrong-answer {
+    background-color: #a20;
+    color: #fff;
+}
+
+.gauge {
+    display: block;
+    position: absolute;
+    max-width: 75px;
+    margin: 0;
+    margin-left: 5px;
+    bottom: 5px;
+    right: 30px;
+    display: none;
+}
+
+.needle {
+    display: block;
+    position: absolute;
+    max-width: 40px;
+    bottom: 5px;
+    right: 60px;
+    transform-origin: 80% 50%;
+    display: none;
+}

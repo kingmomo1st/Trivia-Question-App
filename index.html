@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09.04 Trivia Quiz API</title>
+    <link href="css/basic-pg-console.log.css" rel="stylesheet">
+    <link href="css/09.04-Trivia-Quiz-API.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container" style="position:relative;">
+
+        <h1>09.04 Trivia Quiz API</h1>
+
+        <div id="score-box">
+            Tries: 0 &nbsp; &nbsp; &nbsp; 
+            Score: 0 &nbsp; &nbsp; &nbsp; 
+            Avg: 0.000
+        </div>
+
+        <select id="category-menu">
+            <option value="-1">Choose..</option>
+            <option value="9" selected>General Knowledge</option>
+            <option value="10">Books</option>
+            <option value="11">Film</option>
+            <option value="12">Music</option>
+            <option value="13">Musicals & Theater</option>
+            <option value="14">Television</option>
+            <option value="15">Video Games</option>
+            <option value="16">Board Games</option>
+            <option value="17">Science & Nature</option>
+            <option value="18">Computers</option>
+            <option value="19">Mathematics</option>
+            <option value="20">Mythology</option>
+            <option value="21">Sports</option>
+            <option value="22">Geography</option>
+            <option value="23">History</option>
+            <option value="24">Politics</option>
+            <option value="25">Art</option>
+            <option value="26">Celebrities</option>
+            <option value="27">Animals</option>
+            <option value="28">Vehicles</option>
+            <option value="29">Comics</option>
+            <option value="30">Gadgets</option>
+            <option value="31">Japanese Anime & Manga</option>
+            <option value="32">Cartoons & Animation</option>
+        </select>
+
+        <div id="question-box">
+            <h3>Question Appears Here</h3>
+            <button class="answer-choice-btn" id="A">A. </button>
+            <button class="answer-choice-btn" id="B">B. </button>
+            <button class="answer-choice-btn" id="C">C. </button>
+            <button class="answer-choice-btn" id="D">D. </button>
+        </div>
+
+        <button id="get-trivia-btn">Get Trivia Question</button>
+
+        <div id="difficutly-level-div" style="margin-top:1rem;">
+
+            <span>Difficulty Level:  &nbsp;</span>
+
+            <input type="radio" id="any" name="difficulty" value="any" class="radio-btn" checked>
+            <label for="any">Any</label>  &nbsp; 
+
+            <input type="radio" id="easy" name="difficulty" value="easy" class="radio-btn">
+            <label for="easy">Easy</label> &nbsp; 
+
+            <input type="radio" id="medium" name="difficulty" value="medium" class="radio-btn">
+            <label for="medium">Medium</label>  &nbsp; 
+
+            <input type="radio" id="hard" name="difficulty" value="hard" class="radio-btn">
+            <label for="hard">Hard</label>
+            
+        </div>
+        
+        <!-- <div id="gauge">
+            <div id="needle"></div>
+        </div> -->
+        
+        
+    </div>
+
+    
+
+    <!-- START.js -->
+    <!-- <script src="09.04-Trivia-Quiz-API-START.js"></script> -->
+    
+    <!-- PROG.js -->
+    <script src="js/09.04-Trivia-Quiz-API-PROG.js"></script>
+
+    <!-- FINAL.js -->
+    <!-- <script src="js/09.04-Trivia-Quiz-API-FINAL.js"></script> -->
+
+</body>
+
+</html>
